@@ -53,5 +53,4 @@ export class ContactsComponent implements OnInit {
     .subscribe( contacts => 
       this.contacts = contacts);
   }
-
 }
